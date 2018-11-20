@@ -40,7 +40,7 @@
         # print(i2)
         
     # 导入MySQL数据
-        # conn = pymysql.connect("host=","user=","passwd=","db="...)
+        # conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='Devilhunter9527', db='dangdang', charset='utf8', use_unicode=True)
         # sql = "select * from ..."
         # i3 = pandas.read_sql(sql, conn)
         # i3.describe()
